@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="#" class="logo">LOGO</a>
+        <ul>
+            <li><a href="#home" onclick="toggle()" class="active">Home</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#services" onclick="toggle()">Service</a></li>
+            <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+            <li><a href="#team" onclick="toggle()">Team</a></li>
+            <li><a href="#contact" onclick="toggle()">Contact</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div>
+            <h2>Responsive Website Design For Beginners</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto voluptatem sed reiciendis
+                ipsum molestias, aperiam tenetur hic, impedit sit praesentium expedita temporibus? Tenetur voluptates
+                praesentium a animi doloremque deserunt ex itaque asperiores cupiditate obcaecati.</p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="./images/home.jpg" alt="home">
+    </section>
+    <section id="about">
+        <div>
+            <h2>About Us and How it work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto voluptatem sed reiciendis
+                ipsum molestias, aperiam tenetur hic, impedit sit praesentium expedita temporibus? Tenetur voluptates
+                praesentium a animi doloremque deserunt ex itaque asperiores cupiditate obcaecati.</p>
+        </div>
+    </section>
+    <section id="services">
+        <div>
+            <h2>Services How it work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto voluptatem sed reiciendis
+                ipsum molestias, aperiam tenetur hic, impedit sit praesentium expedita temporibus? Tenetur voluptates
+                praesentium a animi doloremque deserunt ex itaque asperiores cupiditate obcaecati.</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div>
+            <h2>Portfolio How it work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto voluptatem sed reiciendis
+                ipsum molestias, aperiam tenetur hic, impedit sit praesentium expedita temporibus? Tenetur voluptates
+                praesentium a animi doloremque deserunt ex itaque asperiores cupiditate obcaecati.</p>
+        </div>
+    </section>
+    <section id="team">
+        <div>
+            <h2>Team work is awesome Portfolio How it work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto voluptatem sed reiciendis
+                ipsum molestias, aperiam tenetur hic, impedit sit praesentium expedita temporibus? Tenetur voluptates
+                praesentium a animi doloremque deserunt ex itaque asperiores cupiditate obcaecati.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h2>Contact Us Team work is awesome Portfolio How it work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto voluptatem sed reiciendis
+                ipsum molestias, aperiam tenetur hic, impedit sit praesentium expedita temporibus? Tenetur voluptates
+                praesentium a animi doloremque deserunt ex itaque asperiores cupiditate obcaecati.</p>
+        </div>
+    </section>
+
+    <script>
+        function toggle() {
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+    </script>
+
+</body>
+
+</html>
